@@ -58,7 +58,7 @@ while True:
         print("The magic number is ", randomNumber)
     time.sleep(2)
     retry = input("Do you want to try again? yes(y) or no(n)")
-    if retry == 'y':
+    if retry == 'y' or "ye" or 'yea' or 'yh' or 'yes' :
         continue
     else:
         break
